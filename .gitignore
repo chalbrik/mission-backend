@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Środowisko wirtualne
+.venv/
+venv/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+
+# Zmienne środowiskowe (sekrety)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
